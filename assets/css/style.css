@@ -1,0 +1,144 @@
+body {
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav {
+    background-color: #000f08;
+    padding: 15px 0 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+
+.icono svg {
+    width: 2rem;
+    fill: white;
+    margin-left: 60px;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: white;
+    text-align: right;
+    padding: 10px 50px 80px 70px; 
+    
+}
+
+/*revisar */
+li {
+    display: inline;
+}
+
+header h1 {
+    font-size: 40px;
+}
+header h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0,9;
+}
+
+.lugar {
+    text-align: center;
+    padding: 100px;
+
+}
+
+.lugar img {
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.lugar p {
+    padding: 100px 300px;
+}
+
+#proxima-charla {
+    
+    padding: 100px;
+    color: white;
+    background: #a4452c;
+}
+
+#proxima-charla .wrapper {
+        width: 800px;
+        margin: auto;
+        
+}
+    
+.wrapper img {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.eventos-anteriores {
+    text-align: center;
+    padding: 250px;
+}
+
+.eventos-anteriores img {
+width: 70%;
+border-radius: 5px;
+
+}
+
+.eventos-anteriores div {
+
+    display: inline-block;
+}
+
+.eventos-anteriores h2 {
+
+    font-size: 32px;
+    margin-bottom: 35px;
+    }
+
+.eventos-anteriores h3 {
+
+font-size: 22px;
+margin-top: 20px;
+
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px
+   }
